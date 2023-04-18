@@ -1,3 +1,8 @@
+/*Створити форму як на малюнку, за допомогою js реалізувати перевірку чи співпадають паролі. Чи введені всі дані
+в полях.Якщо всі данні введені, сховати поля  і кнопки і вивести текст, реєсстрація пройшла успішно, в полях де помилка
+ змінити колір бордера на червоний
+*/
+
 let fullName = document.getElementById("fullName")
 let email = document.getElementById("email")
 let phone = document.getElementById("phone")

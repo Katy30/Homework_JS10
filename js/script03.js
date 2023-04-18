@@ -1,3 +1,5 @@
+/*Створити блок на сторінці який переміщужться на 10рх в сторону стрілки яку натиснули */
+
 let div=document.getElementById('block');
 let xPosition = 0, yPosition = 0;
 function moveBlock(event) {
