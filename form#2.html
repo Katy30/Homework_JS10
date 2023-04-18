@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_JS10</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+<div class="container">
+    <img class="img" src="img/pizza.png">
+    <h1 class="header">Pizza</h1>
+    <div class="wrap">
+        <div class="custom-select margin">
+            <label for="size">Size:</label>
+            <select id="size"></select>
+        </div>
+
+        <div class="filling margin">
+            <span class="span">Filling:</span>
+        </div>
+
+        <div class="toppings margin">
+            <span class="span">Toppings:</span>
+        </div>
+
+        <div class="type_delivery margin">
+            <span class="span">Type delivery:</span>
+        </div>
+
+        <div class="price margin">
+            <span class="span">Price:</span>
+            <span class="span" id="price">0</span>
+        </div>
+        <button id="order" disabled>Order</button>
+
+    </div>
+</div>
+
+</body>
+<script src="js/script02.js"></script>
+</html>

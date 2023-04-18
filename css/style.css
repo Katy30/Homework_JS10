@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 400px;
+    min-height: 500px;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.wrapper label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.wrapper input {
+    border: 2px solid #B48ED7;
+    background: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#register, #sign {
+    width: 100%;
+    text-align: center;
+    color: bisque;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    background-color: blueviolet;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+
+#register {
+    margin-top: 60px;
+}
+
+#rs {
+    color: white;
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+    border: 2px solid blueviolet;
+    padding: 20px 10px;
+    margin-top: 150px;
+}
+
+.span{
+    color: white;
+}
+.img{
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+}
+.container{
+    max-width: 400px;
+    min-height: 500px;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+.container label{
+    color: white;
+    margin-bottom: 10px;
+}
+.margin{
+    margin-bottom: 10px;
+}
+
+#order {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
